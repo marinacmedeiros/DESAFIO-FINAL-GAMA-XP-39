@@ -39,6 +39,13 @@ header nav {
   padding-right: 10%;
 }
 
+.navbar{
+  width: 100%;
+  display: flex;
+  justify-content: right;
+ 
+}
+
 .logo-branca {
   max-width: 265px;
   width: 100%;
@@ -106,7 +113,7 @@ header nav {
 
 .section2text {
   width: 100%;
-  max-width: 500px;
+  max-width: 1000px;
   align-items: left;
   display: flex;
   flex-direction: column;
@@ -134,6 +141,7 @@ header nav {
 
 .section3 {
   width: 100%;
+  padding: 0px 141px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -163,13 +171,39 @@ header nav {
   font-style: normal;
   font-weight: 300;
   font-size: 24px;
-  line-height: 20px;
+  line-height: 28px;
   text-align: left;
   color: #9d9d9d;
   padding-top: 15px;
 }
 
+.btnclass {
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  height: 90px;
+  background: #6fc1e7;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  color: #f4f2f2;
+  transition: background 0.2s;
+}
 
+.btnclass:hover {
+  background: #00a3d8;
+}
+
+.btnclass2 {
+  background: #3870a1;
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.btnclass2:hover {
+  background: #15467e;
+}
 
 
 footer {

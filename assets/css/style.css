@@ -248,3 +248,12 @@ footer {
     font-size: 48px;
   }
 }
+
+/* página de resultado */
+
+.navbar{
+  width: 100%;
+  display: flex;
+  justify-content: right;
+ 
+}
