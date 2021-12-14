@@ -51,7 +51,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - Desenvolvedores
   - Ícaro Dias
   - Isabella Ambros Cammerer
-  - Isabella Ambros Cammerer
+  - Jefferson Lucas Gomes
   - Marina Medeiros
   
   <br/>
