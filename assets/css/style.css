@@ -293,13 +293,14 @@ footer {
 
 .section4text h1 {
   width: 100%;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
   line-height: 50px;
   text-align: left;
   color: #131c45;
+  padding-top: 70px;
 }
 
 .section4text p {
@@ -344,6 +345,7 @@ footer {
   margin-bottom: 80px;
   justify-content: center;
   text-align: center;
+  font-size: 24px;
 }
 
 .section7 {
@@ -361,6 +363,14 @@ footer {
 .content7 {
   width: 100%;
   max-width: 1170px;
+}
+
+.content7 h1 {
+  font-size: 48px;
+}
+
+.content7 p {
+  font-weight: 500;
 }
 
 .section8 {
@@ -406,6 +416,86 @@ footer {
 .card8 img {
   width: 250px;
   height: 250px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.section9 {
+  width: 100%;
+  color: #131c45;
+  margin-bottom: 80px;
+  justify-content: center;
+  text-align: center;
+  font-size: 24px;
+}
+
+.section10, .section12, .section14, .section16 {
+  color: #9d9d9d;
+  width: 100%;
+  margin-bottom: 40px;
+  padding: 0 142px;
+  line-height: 24 px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content10, .content12, .content14, .content16 {
+  width: 100%;
+  max-width: 1170px;
+}
+
+.content10 h1, .content12 h1, .content14 h1, .content16 h1 {
+  font-size: 48px;
+}
+
+
+.section11, .section13, .section15, .section17 {
+  margin-right: 80px;
+  margin-left: 80px;
+}
+
+.section11 h2.section13 h2, .section15 h2, .section17 h2{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #9d9d9d;
+  text-align: left;
+}
+
+.contentsection11, .contentsection13, .contentsection15, .contentsection17{
+  width: 100%;
+  display: flex;
+  gap: 36px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card11, .card13, .card15, .card17 {
+  max-width: 330px;
+  min-height: 478px;
+  margin-bottom: 40px;
+  flex: none;
+}
+
+.card11 p, .card13 p, .card15 p, .card17 p {
+  color: #131c45;
+  text-align: justify;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.card11 h2, .card13 h2, .card15 h2, .card17 h2 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #9d9d9d;
+  text-align: left;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.card11 img, .card13 img, .card15 img, .card17 img {
+  width: 330px;
+  height: 478px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
