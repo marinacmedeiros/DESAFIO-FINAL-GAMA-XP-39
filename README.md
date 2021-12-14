@@ -21,7 +21,6 @@
 
 🚀 Tech Vocacional - é um projeto que idealiza uma plataforma onde as pessoas que desejam migrar para área de tecnologia pudessem realizar um teste vocacional voltado para esse mercado.
 
-
 ## ⚙️ Funcionalidade
 
 Os usuários terão acesso ao site, onde poderão realizar um teste que indicará o percentual de afinidade com cada área especificada.
