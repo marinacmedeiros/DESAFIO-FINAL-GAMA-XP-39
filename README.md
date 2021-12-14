@@ -16,7 +16,6 @@
  <a href="#-equipe">Contribuidores</a>
 </p>
 
-
 ## 💻 Sobre o projeto
 
 🚀 Tech Vocacional - é um projeto que idealiza uma plataforma onde as pessoas que desejam migrar para área de tecnologia pudessem realizar um teste vocacional voltado para esse mercado.
@@ -49,12 +48,11 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ## 👨‍💻 Equipe
 
 - Desenvolvedores
-  - Ícaro Dias
-  - Isabella Ambros Cammerer
-  - Jefferson Lucas Gomes
-  - Marina Medeiros
+  - Ícaro Dias <a href="https://github.com/IcaroDV"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" target="_blank" height="30" width="30"></a>
+  - Isabella Ambros Cammerer <a href="https://github.com/isacammerer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" target="_blank" height="30" width="30"></a>
+  - Jefferson Lucas Gomes <a href="https://github.com/ijefin"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" target="_blank" height="30" width="30"></a>
+  - Marina Medeiros <a href="https://github.com/marinacmedeiros"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" target="_blank" height="30" width="30"></a>
   
-  <br/>
 - Designers UX
   - Lucas Silva
   - Lucas Jurado
