@@ -201,6 +201,23 @@ header nav {
   margin-bottom: 80px;
 }
 
+#btn_01 {
+  height: auto;
+  margin-bottom: 80px;
+  align-items: center;
+  height: 100px;
+  background: #131c45;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  color: white;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+}
+
 .btnclass2:hover {
   background: #15467e;
 }

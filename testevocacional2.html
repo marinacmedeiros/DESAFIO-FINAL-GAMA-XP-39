@@ -8,7 +8,7 @@
   <title>Tech Vocacional</title>
   <link rel="shortcut icon" type="imagex/png" href="/assets/img/Logo Azul escurop.png" />
   <link rel="stylesheet" href="/style-vocacional2.css" />`
-  <script src = "assets/js/script.js"></script>
+  <script src="assets/js/script.js"></script>
 </head>
 
 <body>
@@ -46,115 +46,158 @@
   <div class="section3">
     <div class="contentsection3">
       <div class="section3text">
-        <form class="form-control">
+
+        <form class="form-control" onsubmit="Cons()">
           <div>
             <p>1. Quando penso numa profissão, o mais importante para mim é:</p><br>
-            <p><input type="radio" name="question1" value="inside sales" class="inside-sales"> Apresentar e vender um produto.</p><br>
-            <p><input type="radio" name="question1" value="product design" class='product-design'> Colocar a minha criatividade para resolver
+            <p><input type="radio" name="question1" value="inside sales" class="inside-sales" oninput="Sales()">
+              Apresentar e vender um produto.</p><br>
+            <p><input type="radio" name="question1" value="product design" class='product-design' oninput="Prod()">
+              Colocar a minha criatividade para resolver
               um problema.</p><br>
-            <p><input type="radio" name="question1" value="desenvolver" class='developer'> Analisar e projetar a melhor forma de
+            <p><input type="radio" name="question1" value="desenvolver" class='developer' oninput="Dev()"> Analisar e
+              projetar a melhor forma de
               desenvolver uma solução.</p><br>
-            <p><input type="radio" name="question1" value="marketing" class='mkt'> Pensar em uma forma de apresentar digitalmente o
+            <p><input type="radio" name="question1" value="marketing" class='mkt' oninput="Mkt()"> Pensar em uma forma
+              de apresentar digitalmente o
               meu produto para o maior número de pessoas.</p><br>
           </div>
           <br>
           <div>
             <p>2. Qual desses hobbies abaixo você mais se identifica:</p><br>
-            <p><input type="radio" name="question2" value="inside sales" class="inside-sales"> Sair para conhecer pessoas.</p><br>
-            <p><input type="radio" name="question2" value="product design" class='product-design'> Desenhar e desenvolver seu lado artístico.
+            <p><input type="radio" name="question2" value="inside sales" class="inside-sales" oninput="Sales()"> Sair
+              para conhecer pessoas.</p><br>
+            <p><input type="radio" name="question2" value="product design" class='product-design' oninput="Prod()">
+              Desenhar e desenvolver seu lado artístico.
             </p><br>
-            <p><input type="radio" name="question2" value="desenvolver" class='developer'> Passar um tempo no computador.</p><br>
-            <p><input type="radio" name="question2" value="product design" class='product-design'> Ficar navegando nas redes sociais.</p><br>
+            <p><input type="radio" name="question2" value="desenvolver" class='developer' oninput="Dev()"> Passar um
+              tempo no computador.</p><br>
+            <p><input type="radio" name="question2" value="product design" class='product-design' oninput="Prod()">
+              Ficar navegando nas redes sociais.</p><br>
           </div>
           <br>
           <div>
             <p>3. Se eu tivesse que montar uma empresa hoje, esta empresa seria:</p><br>
-            <p><input type="radio" name="question3" value="inside sales" class="inside-sales"> Uma empresa focada em vender soluções.</p><br>
-            <p><input type="radio" name="question3" value="product design" class='product-design'> Uma empresa criativa onde eu pudesse
+            <p><input type="radio" name="question3" value="inside sales" class="inside-sales" oninput="Sales()"> Uma
+              empresa focada em vender soluções.</p><br>
+            <p><input type="radio" name="question3" value="product design" class='product-design' oninput="Prod()"> Uma
+              empresa criativa onde eu pudesse
               arriscar e desenvolver novas ideias.</p><br>
-            <p><input type="radio" name="question3" value="desenvolver" class='developer'> Uma empresa com visão tecnológica para
+            <p><input type="radio" name="question3" value="desenvolver" class='developer' oninput="Dev()"> Uma empresa
+              com visão tecnológica para
               desenvolver soluções.</p><br>
-            <p><input type="radio" name="question3" value="marketing" class='mkt'> Uma empresa direcionada as tendências atuais do
+            <p><input type="radio" name="question3" value="marketing" class='mkt' oninput="Mkt()"> Uma empresa
+              direcionada as tendências atuais do
               mercado para ajudar outras pessoas a entrarem no mercado digital.</p><br>
           </div>
           <br>
           <div>
             <p>4. Você se considera uma pessoa:</p><br>
-            <p><input type="radio" name="question4" value="inside sales" class="inside-sales"> Comunicativa, que gosta de conhecer e
+            <p><input type="radio" name="question4" value="inside sales" class="inside-sales" oninput="Sales()">
+              Comunicativa, que gosta de conhecer e
               conversar com pessoas novas.</p><br>
-            <p><input type="radio" name="question4" value="product design" class='product-design'> Criativa, que tenta resolver os problemas a
+            <p><input type="radio" name="question4" value="product design" class='product-design' oninput="Prod()">
+              Criativa, que tenta resolver os problemas a
               sua volta de maneira inovadora.</p><br>
-            <p><input type="radio" name="question4" value="desenvolver" class='developer'> Lógica, gostam de analisar condições ou
+            <p><input type="radio" name="question4" value="desenvolver" class='developer' oninput="Dev()"> Lógica,
+              gostam de analisar condições ou
               ambientes e são bastante objetivas.</p><br>
-            <p><input type="radio" name="question4" value="marketing" class='mkt'> Analítica, gosta de analisar as informações que
+            <p><input type="radio" name="question4" value="marketing" class='mkt' oninput="Mkt()"> Analítica, gosta de
+              analisar as informações que
               tem em mãos para ver se está indo pelo caminho certo.</p><br>
           </div>
           <br>
           <div>
             <p>5. Se eu tivesse que abrir um destes negócios seria:</p><br>
-            <p><input type="radio" name="question5" value="inside sales" class="inside-sales"> E-commerce.</p><br>
-            <p><input type="radio" name="question5" value="product design" class='product-design'> Estúdio de design.</p><br>
-            <p><input type="radio" name="question5" value="desenvolver" class='developer'> Fábrica de softwares.</p><br>
-            <p><input type="radio" name="question5" value="marketing" class='mkt'> Agência de marketing.</p><br>
+            <p><input type="radio" name="question5" value="inside sales" class="inside-sales" oninput="Sales()">
+              E-commerce.</p><br>
+            <p><input type="radio" name="question5" value="product design" class='product-design' oninput="Prod()">
+              Estúdio de design.</p><br>
+            <p><input type="radio" name="question5" value="desenvolver" class='developer' oninput="Dev()"> Fábrica de
+              softwares.</p><br>
+            <p><input type="radio" name="question5" value="marketing" class='mkt' oninput="Mkt()"> Agência de marketing.
+            </p><br>
           </div>
           <br>
           <div>
             <p>6. Selecione uma característica que mais se encaixe no seu perfil:</p><br>
-            <p><input type="radio" name="question6" value="inside sales" class="inside-sales"> Como monetizar o negócio.</p><br>
-            <p><input type="radio" name="question6" value="product design" class='product-design'> Ter um diferencial na sua solução de
+            <p><input type="radio" name="question6" value="inside sales" class="inside-sales" oninput="Sales()"> Como
+              monetizar o negócio.</p><br>
+            <p><input type="radio" name="question6" value="product design" class='product-design' oninput="Prod()"> Ter
+              um diferencial na sua solução de
               negócios.</p><br>
-            <p><input type="radio" name="question6" value="desenvolver" class='developer'> Se destacar pela tecnologia empregada na
+            <p><input type="radio" name="question6" value="desenvolver" class='developer' oninput="Dev()"> Se destacar
+              pela tecnologia empregada na
               empresa.</p><br>
-            <p><input type="radio" name="question6" value="marketing" class='mkt'> Divulgação e apresentação da empresa.</p><br>
+            <p><input type="radio" name="question6" value="marketing" class='mkt' oninput="Mkt()"> Divulgação e
+              apresentação da empresa.</p><br>
           </div>
           <br>
           <div>
             <p>7. Selecione uma característica que mais se encaixe no seu perfil:</p><br>
-            <p><input type="radio" name="question7" value="inside sales" class="inside-sales"> Carismático.</p><br>
-            <p><input type="radio" name="question7" value="product design" class='product-design'> Aventureiro.</p><br>
-            <p><input type="radio" name="question7" value="desenvolver" class='developer'> Objetivo.</p><br>
-            <p><input type="radio" name="question7" value="marketing" class='mkt'> Observador.</p><br>
+            <p><input type="radio" name="question7" value="inside sales" class="inside-sales" oninput="Sales()">
+              Carismático.</p><br>
+            <p><input type="radio" name="question7" value="product design" class='product-design' oninput="Prod()">
+              Aventureiro.</p><br>
+            <p><input type="radio" name="question7" value="desenvolver" class='developer' oninput="Dev()"> Objetivo.</p>
+            <br>
+            <p><input type="radio" name="question7" value="marketing" class='mkt' oninput="Mkt()"> Observador.</p><br>
           </div>
           <br>
           <div>
             <p>8. Qual dessas frases você acha que faz mais sentido?</p><br>
-            <p><input type="radio" name="question8" value="inside sales" class="inside-sales"> "Você não pode propor uma relação de negócios
+            <p><input type="radio" name="question8" value="inside sales" class="inside-sales" oninput="Sales()"> "Você
+              não pode propor uma relação de negócios
               mutuamente benéfica se não consegue entender os negócios deles."</p><br>
-            <p><input type="radio" name="question8" value="product design" class='product-design'> "Gênio é a capacidade de reduzir o
+            <p><input type="radio" name="question8" value="product design" class='product-design' oninput="Prod()">
+              "Gênio é a capacidade de reduzir o
               complicado ao simples."</p><br>
-            <p><input type="radio" name="question8" value="desenvolver" class='developer'> "Inspecionar para prevenir defeitos é bom,
+            <p><input type="radio" name="question8" value="desenvolver" class='developer' oninput="Dev()"> "Inspecionar
+              para prevenir defeitos é bom,
               inspecionar para encontrar defeitos é desperdício."</p><br>
-            <p><input type="radio" name="question8" value="marketing" class='mkt'> "A melhor maneira de persuadir as pessoas é com
+            <p><input type="radio" name="question8" value="marketing" class='mkt' oninput="Mkt()"> "A melhor maneira de
+              persuadir as pessoas é com
               os ouvido - ouvindo a elas."</p><br>
           </div>
           <br>
           <div>
             <p>9. Na escola eu geralmente me destacava por:</p><br>
-            <p><input type="radio" name="question9" value="inside sales" class="inside-sales"> Ser um aluno dedicado nos estudos e gostar de
+            <p><input type="radio" name="question9" value="inside sales" class="inside-sales" oninput="Sales()"> Ser um
+              aluno dedicado nos estudos e gostar de
               metas.</p><br>
-            <p><input type="radio" name="question9" value="product design" class='product-design'> Ser bastante comunicativo.</p><br>
-            <p><input type="radio" name="question9" value="desenvolver" class='developer'> Ser bastante observador e dinâmico.</p><br>
-            <p><input type="radio" name="question9" value="marketing" class='mkt'> Ser bom em apresentações.</p><br>
+            <p><input type="radio" name="question9" value="product design" class='product-design' oninput="Prod()"> Ser
+              bastante comunicativo.</p><br>
+            <p><input type="radio" name="question9" value="desenvolver" class='developer' oninput="Dev()"> Ser bastante
+              observador e dinâmico.</p><br>
+            <p><input type="radio" name="question9" value="marketing" class='mkt' oninput="Mkt()"> Ser bom em
+              apresentações.</p><br>
           </div>
           <br>
           <div>
             <p>10. Qual é o fator mais importante que você considera ao escolher uma profissão</p><br>
-            <p><input type="radio" name="question10" value="inside sales" class="inside-sales"> Trabalhar com contato direto com clientes e
+            <p><input type="radio" name="question10" value="inside sales" class="inside-sales" oninput="Sales()">
+              Trabalhar com contato direto com clientes e
               grandes metas.</p><br>
-            <p><input type="radio" name="question10" value="product design" class='product-design'> Liberdade para buscar as melhores soluções
+            <p><input type="radio" name="question10" value="product design" class='product-design' oninput="Prod()">
+              Liberdade para buscar as melhores soluções
               para os problemas apresentados.</p><br>
-            <p><input type="radio" name="question10" value="desenvolver" class='developer'> Ter suporte e a possibilidade de explorar
+            <p><input type="radio" name="question10" value="desenvolver" class='developer' oninput="Dev()"> Ter suporte
+              e a possibilidade de explorar
               novas tecnologias.</p><br>
-            <p><input type="radio" name="question10" value="marketing" class='mkt'> Atuar com métricas e ser atuante nas mídias
+            <p><input type="radio" name="question10" value="marketing" class='mkt' oninput="Mkt()"> Atuar com métricas e
+              ser atuante nas mídias
               sociais.</p><br>
           </div>
           <br>
+          <button class="btnclass btnclass2" type="submit"><a href="/resultado.html">Enviar respostas</a>
+          </button>
+
         </form>
       </div>
-      <a href="/resultado.html">
-        <button class="btnclass btnclass2">Enviar respostas</button>
-      </a>
-      
+
+
+      <!-- <a href="/resultado.html">Enviar respostas</a> -->
+
     </div>
   </div>
 
