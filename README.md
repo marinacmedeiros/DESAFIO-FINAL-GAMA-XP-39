@@ -13,6 +13,7 @@
  <a href="-funcionalidade">Funcionalidade</a> •
  <a href="#-layout">Layout</a> •
  <a href="#-tecnologias">Tecnologias</a> • 
+ <a href="#-documentacao">Documentação</a> • 
  <a href="#-equipe">Contribuidores</a>
 </p>
 
