@@ -56,7 +56,7 @@ header nav {
   text-align: center;
   margin-top: 100px;
   padding: 175px;
-  background: url('/assets/img/Banner\ inicial\ -\ Desktop.png') no-repeat;
+  background: url('../../assets/img/Banner\ inicial\ -\ Desktop.png') no-repeat;
   background-position: center;
   background-size: cover;
   justify-content: flex-end; /* em relação ao eixo X */
