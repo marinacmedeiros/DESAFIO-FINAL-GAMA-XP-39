@@ -49,6 +49,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ## Documentação
 <h3>É possível acessar a documentação completa através do link:</h3>
 <a href="https://stream-dogwood-e84.notion.site/Desafio-Final-Gama-Academy-9e2e3728cad64c7ebd6cf4a429724973"><img alt="botao de acesso ao figma" src="https://img.shields.io/badge/link-notion-blue"></a>
+<a href="https://www.behance.net/gallery/133277565/Tech-vocacional-Desenvolvimento-de-Site"><img alt="botao de acesso ao behance" src="https://img.shields.io/badge/link-behance-blue"></a>
 
 ---
 
