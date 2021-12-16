@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+* {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+}
+
+a {
+  color: white;
+  font-size: 24px;
+}
+
+.header {
+  background-color: #131c45;
+  max-height: 100px;
+  min-height: 90px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+header nav {
+  color: white;
+  display: flex;
+  font-size: 24px;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-right: 10%;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+}
+
+.logo-branca {
+  max-width: 265px;
+  width: 100%;
+  max-height: 200px;
+  height: auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.section1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.contentsection1 {
+  padding: 60px 142px 60px 141px;
+  display: flex;
+  gap: 40px;
+}
+
+.contentsection1 img {
+  width: 566px;
+  height: 310px;
+  border-radius: 10px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.section1text {
+  max-width: 566px;
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.section1text h1 {
+  margin-bottom: 20px;
+  margin-top: 70px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 45px;
+  text-align: left;
+  color: #131c45;
+}
+
+.section1text p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: justify;
+  color: #9d9d9d;
+}
+
+.container2 {
+  width: 100%;
+  max-width: 1171px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 142px;
+}
+
+.section2text {
+  width: 100%;
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.section2text h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 45px;
+  text-align: left;
+  color: #131c45;
+  padding-bottom: 5px;
+}
+
+.section2text h4 {
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 29px;
+  text-align: justify;
+  color: #9d9d9d;
+  padding-bottom: 30px;
+}
+
+.section3 {
+  width: 100%;
+  padding: 0px 141px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+}
+
+.contentsection3 {
+  max-width: 1170px;
+  display: flex;
+  gap: 36px;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.section3text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 20px;
+  text-align: left;
+  color: #9d9d9d;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.section3text p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: left;
+  color: #9d9d9d;
+  padding-top: 15px;
+}
+
+.btnclass {
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  height: 90px;
+  background: #6fc1e7;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  color: #f4f2f2;
+  transition: background 0.2s;
+}
+
+.btnclass:hover {
+  background: #00a3d8;
+}
+
+.btnclass2 {
+  background: #3870a1;
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+  max-width: 450px;
+  margin-bottom: 80px;
+}
+
+.btnclass2:hover {
+  background: #15467e;
+}
+
+.form-control div p:first-child {
+  color: #131c45 ;
+  font-weight: 500;
+}
+
+footer {
+  height: 100px;
+  background: #131c45;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  color: white;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+@media (max-width: 1200px) {
+  .contentsection1 {
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  .contentsection1 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .text1 {
+    padding: 30px;
+    width: 100%;
+  }
+
+  .text1 h2 {
+    font-size: 48px;
+  }
+}
