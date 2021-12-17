@@ -147,11 +147,6 @@ header nav {
   color: #9d9d9d;
 }
 
-.section2 {
-  margin-right: 80px;
-  margin-left: 80px;
-}
-
 .section2 h1 {
   color: #131c45;
   margin-bottom: 60px;
@@ -191,7 +186,7 @@ header nav {
 
 .btnclass2 {
   background: #3870a1;
-  width: 450px;
+  width: 100%;
   margin: 0 auto;
   align-items: center;
 }
@@ -199,6 +194,10 @@ header nav {
 .section3 {
   height: auto;
   margin-bottom: 80px;
+}
+
+.section3 p{
+  text-align: justify;
 }
 
 .btnclass2:hover {
@@ -224,11 +223,6 @@ footer {
     max-height: 850px;
   }
 
-  .section2 {
-    margin-right: 20px;
-    margin-left: 20px;
-  }
-
   .btnclass2 {
     width: 100%;
     padding: 0 16px;
@@ -251,6 +245,14 @@ footer {
 
   .text1 h2 {
     font-size: 48px;
+  }
+
+  .section2{
+    padding: 0 30px ;
+  }
+
+  .section3{
+    padding: 0 30px;
   }
 }
 
